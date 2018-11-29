@@ -1,5 +1,6 @@
 Note : 
-* The version is for Ubuntu15.04.
+* The version is for Ubuntu16.04.
+* 在ipsec.conf的rightsourceip=10.10.10.0/24表示vpnusers拿到的網段，該IP對應iptabls.sh
 
 1. 執行安裝server相關資訊
 #sh install_server.sh $host_ip
@@ -8,7 +9,10 @@ Note :
 #sh gen_client_cert.sh $user
 (輸入憑證帳號密碼)
 
-3. for Android
+3. 建立Fordward
+#sh iptables.sh
+
+4. for Android
 	a. 下載/etc/ipsec.d/p12/Jesse.p12  
 	b. 安裝strongSwan
 	c. 新增vpn
