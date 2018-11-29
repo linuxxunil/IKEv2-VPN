@@ -1,3 +1,6 @@
+Note : 
+* The version is for Ubuntu15.04.
+
 1. 執行安裝server相關資訊
 #sh install_server.sh $host_ip
 
