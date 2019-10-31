@@ -1,5 +1,5 @@
-#user_ip=10.10.10.0/24
-user_ip=$1
+user_ip=10.10.10.0/24
+#user_ip=$1
 echo 1 > /proc/sys/net/ipv4/ip_forward
 
 iptables -F
